@@ -9,6 +9,8 @@ in /etc/jitsi/videobridge/sip-communicator.properties
 
     # the id of the videobridge
     io.callstats.sdk.CallStats.bridgeId=
+    io.callstats.sdk.CallStats.conferenceIDPrefix=
+
 
     # enable statistics and callstats statistics and the report interval
     org.jitsi.videobridge.ENABLE_STATISTICS=true
